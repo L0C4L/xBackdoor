@@ -64,15 +64,15 @@ class Client:
 
 
        ____             _       _                  
-      |  _ \           | |     | |                 
+      |  _ \           | |     | |   github.com/L0C4L               
  __  _| |_) | __ _  ___| | ____| | ___   ___  _ __ 
  \ \/ /  _ < / _` |/ __| |/ / _` |/ _ \ / _ \| '__|
   >  <| |_) | (_| | (__|   < (_| | (_) | (_) | |   
- /_/\_\____/ \__,_|\___|_|\_\__,_|\___/ \___/|_|   
-                                                   
+ /_/\_\____/ \__,_|\___|_|\_\__,_|\___/ \___/|_|  
+   
             Wrote by: X with <3
                 SpadSecurity
-            Telegram: @spadSec                                              
+            Telegram: @spadSec
         """
         for N, line in enumerate(x.split("\n")):
             sys.stdout.write("\x1b[1;%dm%s%s\n" %(random.choice(colors), line, clear))
